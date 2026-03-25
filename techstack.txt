@@ -1,6 +1,7 @@
 NodeJs
 NextJs
 NestJs
+VibeCoding
 Laravel
 Jenkins
 ReactJs
