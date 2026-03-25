@@ -1,0 +1,10 @@
+NodeJs
+NextJs
+NestJs
+Laravel
+Jenkins
+ReactJs
+Typescript
+Elixir
+Erlang
+ES6
