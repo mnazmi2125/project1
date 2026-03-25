@@ -29,18 +29,6 @@ BAGIAN 1 — FONDASI (Mulai dari sini, 0–2 bulan)
         - Responsive design (media queries)
         - Target: 2–3 minggu
 
-[ ] 3.  JavaScript ES6+
-        - var/let/const
-        - Arrow function
-        - Destructuring & spread operator
-        - Array methods: map, filter, reduce
-        - Promise & async/await
-        - Fetch API
-        - ES6 Modules (import/export)
-        - DOM manipulation
-        - Event handling
-        - Target: 4–6 minggu
-
 [ ] 4.  Git & GitHub
         - git init, add, commit, push, pull
         - Branch & merger
