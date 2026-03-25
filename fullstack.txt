@@ -1,0 +1,459 @@
+================================================================
+   DAFTAR BELAJAR FULL STACK DEVELOPER
+   Dibuat untuk: Developer dari background PHP Native
+   Update: Maret 2026
+================================================================
+
+CARA PAKAI:
+  [ ] = Belum dipelajari
+  [~] = Sedang dipelajari
+  [x] = Sudah dikuasai
+
+Urutan angka = prioritas belajar (mulai dari yang paling atas)
+
+================================================================
+BAGIAN 1 — FONDASI (Mulai dari sini, 0–2 bulan)
+================================================================
+
+[ ] 1.  HTML5 Semantic
+        - Tag: header, nav, main, section, article, footer
+        - Form elements & validasi
+        - Accessibility dasar (alt, aria)
+        - Target: 1–2 minggu
+
+[ ] 2.  CSS3 Modern
+        - Box model, positioning
+        - Flexbox layout
+        - CSS Grid layout
+        - CSS Variables & custom properties
+        - Responsive design (media queries)
+        - Target: 2–3 minggu
+
+[ ] 3.  JavaScript ES6+
+        - var/let/const
+        - Arrow function
+        - Destructuring & spread operator
+        - Array methods: map, filter, reduce
+        - Promise & async/await
+        - Fetch API
+        - ES6 Modules (import/export)
+        - DOM manipulation
+        - Event handling
+        - Target: 4–6 minggu
+
+[ ] 4.  Git & GitHub
+        - git init, add, commit, push, pull
+        - Branch & merger
+        - Pull request
+        - Resolve conflict
+        - .gitignore
+        - Target: 1 minggu
+
+[ ] 5.  Command Line & Tools
+        - Terminal/bash dasar
+        - VS Code + extensions (ESLint, Prettier, GitLens)
+        - npm / yarn basics
+        - Node.js (runtime dasar)
+        - Browser DevTools
+        - Postman / Thunder Client
+        - Target: 3–5 hari
+
+
+================================================================
+BAGIAN 2 — FRONTEND WEB (2–5 bulan)
+================================================================
+
+[ ] 6.  TypeScript Dasar
+        - Type annotations
+        - Interface & Type alias
+        - Union & Intersection types
+        - Generics dasar
+        - Enum
+        - TypeScript dengan React
+        - Target: 1–2 minggu
+
+[ ] 7.  React Fundamental
+        - JSX & komponen
+        - Props & State
+        - useState, useEffect, useContext
+        - useRef, useMemo, useCallback
+        - Custom hooks
+        - React Router v6
+        - React DevTools
+        - Target: 3–5 minggu
+
+[ ] 8.  Next.js
+        - App Router (Next.js 13+)
+        - Server vs Client Components
+        - SSR, SSG, ISR
+        - API Routes
+        - Middleware
+        - Image & Font optimization
+        - Layout & loading UI
+        - Target: 3–4 minggu
+
+[ ] 9.  Tailwind CSS
+        - Utility classes
+        - Responsive prefix (sm, md, lg, xl)
+        - Dark mode
+        - Custom config
+        - Target: 1 minggu
+
+[ ] 10. shadcn/ui (Component Library)
+        - Install & setup
+        - Button, Input, Form, Dialog, Table
+        - Kustomisasi komponen
+        - Target: 3–5 hari
+
+[ ] 11. State Management
+        - Zustand (lebih simpel, mulai dari ini)
+        - Redux Toolkit (untuk app besar)
+        - React Query / TanStack Query (server state)
+        - Target: 1–2 minggu
+
+
+================================================================
+BAGIAN 3 — BACKEND WEB (3–5 bulan)
+================================================================
+
+[ ] 12. Laravel (dari PHP yang sudah dikuasai)
+        - Routing & controller
+        - Eloquent ORM
+        - Migration & seeder
+        - Middleware
+        - Sanctum (API auth)
+        - Resource API
+        - Queue & Jobs
+        - Target: 3–5 minggu
+
+[ ] 13. Node.js & Express.js
+        - HTTP & REST principles
+        - Routing & controller pattern
+        - Middleware
+        - Error handling
+        - File upload (Multer)
+        - Environment variables
+        - CORS
+        - Target: 3–4 minggu
+
+[ ] 14. NestJS (setelah mahir Express)
+        - Module, Controller, Service pattern
+        - Dependency Injection
+        - TypeScript native
+        - Guards & interceptors
+        - Target: 4–6 minggu
+
+[ ] 15. REST API Design
+        - HTTP methods (GET, POST, PUT, PATCH, DELETE)
+        - Status codes (200, 201, 400, 401, 403, 404, 500)
+        - API versioning (/api/v1/)
+        - Pagination & filtering
+        - Error response standard
+        - OpenAPI / Swagger dokumentasi
+        - Target: 1–2 minggu
+
+[ ] 16. Authentication & Security
+        - JWT (JSON Web Token)
+        - bcrypt password hashing
+        - OAuth 2.0 & Google Login
+        - Session vs Token auth
+        - NextAuth.js / Auth.js
+        - Role-based access control
+        - OWASP Top 10 awareness
+        - Target: 2–3 minggu
+
+[ ] 17. Zod / Validation
+        - Schema definition
+        - Form validation
+        - API input validation
+        - Integration dengan React Hook Form
+        - Target: 3–5 hari
+
+
+================================================================
+BAGIAN 4 — DATABASE (2–4 bulan)
+================================================================
+
+[ ] 18. SQL Lanjutan
+        - SELECT, INSERT, UPDATE, DELETE
+        - JOIN: INNER, LEFT, RIGHT, FULL
+        - Subquery & CTE
+        - Window functions
+        - Index & query optimization
+        - Transactions
+        - Target: 2–3 minggu
+
+[ ] 19. PostgreSQL
+        - Setup & konfigurasi
+        - Data types PostgreSQL
+        - Foreign key & relasi
+        - pgAdmin / TablePlus
+        - Target: 1–2 minggu
+
+[ ] 20. MySQL (sudah ada dasar)
+        - Perbedaan dengan PostgreSQL
+        - Optimasi query
+        - Target: 1 minggu (refresh)
+
+[ ] 21. Prisma ORM
+        - schema.prisma
+        - Migration
+        - CRUD dengan Prisma Client
+        - Relasi (one-to-many, many-to-many)
+        - Seeding data
+        - Target: 1–2 minggu
+
+[ ] 22. MongoDB (NoSQL)
+        - Document model
+        - Mongoose schema
+        - CRUD operations
+        - Aggregation pipeline
+        - Target: 1–2 minggu
+
+[ ] 23. Redis
+        - Set, Get, Expire
+        - Caching strategy (TTL)
+        - Session storage
+        - Rate limiting
+        - Pub/sub dasar
+        - Upstash (serverless Redis)
+        - Target: 1 minggu
+
+
+================================================================
+BAGIAN 5 — DEVOPS & DEPLOYMENT (1–2 bulan)
+================================================================
+
+[ ] 24. Linux & Terminal
+        - Navigasi file system
+        - chmod & permissions
+        - Process management (ps, kill)
+        - SSH remote server
+        - Bash scripting dasar
+        - Target: 1–2 minggu
+
+[ ] 25. Docker
+        - Dockerfile
+        - docker build & run
+        - docker-compose
+        - Volume & network
+        - Multi-stage build
+        - Target: 2–3 minggu
+
+[ ] 26. CI/CD dengan GitHub Actions
+        - Workflow YAML
+        - Trigger (push, PR)
+        - Test → build → deploy pipeline
+        - Secrets management
+        - Target: 1–2 minggu
+
+[ ] 27. Vercel & Railway (mulai dari sini)
+        - Deploy Next.js ke Vercel
+        - Deploy backend ke Railway
+        - Custom domain
+        - Environment variables production
+        - Target: 1–3 hari
+
+[ ] 28. AWS Dasar (setelah mahir Vercel/Railway)
+        - EC2 (virtual server)
+        - S3 (file storage)
+        - RDS (managed database)
+        - Lambda (serverless function)
+        - AWS Free Tier
+        - Sertifikasi Cloud Practitioner
+        - Target: 2–4 minggu
+
+
+================================================================
+BAGIAN 6 — MOBILE APP / FLUTTER (3–6 bulan)
+================================================================
+
+[ ] 29. Dart Language
+        - Variables & data types
+        - Function & arrow syntax
+        - OOP: class, inheritance, interface
+        - Async/await & Future
+        - Null safety
+        - Target: 1–2 minggu
+
+[ ] 30. Flutter Fundamental
+        - Widget tree (StatelessWidget, StatefulWidget)
+        - Layout: Column, Row, Stack, Expanded
+        - Navigation & routing
+        - Form & input
+        - ListView & GridView
+        - Image & assets
+        - Target: 4–6 minggu
+
+[ ] 31. State Management Flutter
+        - setState (dasar)
+        - Provider
+        - Riverpod (recommended modern)
+        - BLoC (untuk enterprise)
+        - Target: 2–3 minggu
+
+[ ] 32. Networking & API di Flutter
+        - HTTP package / Dio
+        - REST API integration
+        - JSON parsing (dart:convert)
+        - Error handling
+        - Target: 1–2 minggu
+
+[ ] 33. Firebase untuk Mobile
+        - Firebase Auth (login/register)
+        - Cloud Firestore (database)
+        - Firebase Storage (file)
+        - Firebase Cloud Messaging (push notif)
+        - Target: 2–3 minggu
+
+[ ] 34. Local Storage Flutter
+        - SharedPreferences (key-value)
+        - sqflite (SQLite)
+        - Hive (NoSQL lokal)
+        - Target: 1 minggu
+
+[ ] 35. Publish App
+        - Build APK & App Bundle (Android)
+        - Signing & keystore
+        - Google Play Console
+        - Target: 1 minggu
+
+
+================================================================
+BAGIAN 7 — TOOLS & TESTING (Sepanjang belajar)
+================================================================
+
+[ ] 36. VS Code Extensions Wajib
+        - ESLint
+        - Prettier
+        - GitLens
+        - Tailwind CSS IntelliSense
+        - Prisma
+        - Flutter (untuk mobile)
+        - Thunder Client
+
+[ ] 37. Testing
+        - Jest / Vitest (unit test)
+        - React Testing Library
+        - Supertest (API test)
+        - Playwright (E2E test)
+        - Target: 2–3 minggu
+
+[ ] 38. Figma (Baca Design)
+        - Inspect mode
+        - Export assets
+        - Baca spacing, warna, typography
+        - Target: 1 minggu
+
+
+================================================================
+BAGIAN 8 — AI TOOLS (Gunakan sejak awal!)
+================================================================
+
+[ ] 39. AI untuk Coding
+        - GitHub Copilot / Cursor (autocomplete)
+        - Claude (explain, review, debug kode)
+        - ChatGPT (alternatif)
+        - v0.dev (generate UI dari deskripsi)
+
+[ ] 40. Cara Pakai AI dengan Efektif
+        - Prompt yang spesifik dan kontekstual
+        - Review kode hasil AI sebelum pakai
+        - Gunakan untuk explain error & debugging
+        - Jangan copy-paste buta — pahami dulu
+        - Minta AI jelaskan kode yang tidak dipahami
+
+
+================================================================
+BAGIAN 9 — PERSIAPAN KERJA
+================================================================
+
+[ ] 41. Portfolio & GitHub
+        - Buat 3 project berkualitas (bukan tutorial)
+        - README yang lengkap dan menarik
+        - Live demo URL untuk setiap project
+        - Contribution graph aktif (commit setiap hari)
+        - Portfolio website pribadi
+
+[ ] 42. Interview Preparation
+        - LeetCode Easy: 50 soal (neetcode.io)
+        - JavaScript interview questions
+        - React/Next.js interview questions
+        - System design dasar
+        - Behavioral interview (metode STAR)
+        - Mock interview di Pramp.com
+
+[ ] 43. Networking & Apply
+        - LinkedIn profile yang kuat
+        - Post progress belajar rutin (1x/minggu)
+        - Join komunitas: Codepolitan Discord
+        - Platform loker: Glints, Kalibrr, LinkedIn Jobs
+        - Target: 10 lamaran per minggu
+
+
+================================================================
+RESOURCE TERBAIK
+================================================================
+
+GRATIS:
+  - javascript.info          (JavaScript terlengkap)
+  - react.dev                (React dokumentasi resmi)
+  - nextjs.org/docs          (Next.js dokumentasi resmi)
+  - theodinproject.com       (Full stack dari nol)
+  - fullstackopen.com        (Full stack modern gratis)
+  - flutter.dev/docs         (Flutter dokumentasi resmi)
+  - learngitbranching.js.org (Belajar Git interaktif)
+  - neetcode.io              (LeetCode terstruktur)
+  - kaggle.com/learn         (Data & ML gratis)
+
+YOUTUBE:
+  - Traversy Media           (Web dev, semua stack)
+  - Fireship                 (100 seconds series, cepat)
+  - Web Dev Simplified       (React, JS mendalam)
+  - Kevin Powell             (CSS terbaik)
+  - TechWorld with Nana      (DevOps, Docker, K8s)
+  - Brackeys                 (Game dev)
+
+PLATFORM BERBAYAR (Worth it):
+  - Udemy                    (Beli saat diskon max 90rb)
+  - Dicoding                 (Platform lokal Indonesia)
+  - Buildwithangga           (Platform lokal, konten bagus)
+
+KOMUNITAS INDONESIA:
+  - Codepolitan              (Discord aktif)
+  - Frontend Dev ID          (Discord)
+  - WPU (Web Programming Unpas) - YouTube Bahasa Indonesia
+
+
+================================================================
+ESTIMASI TOTAL WAKTU
+================================================================
+
+  Bagian 1  (Fondasi)              : 2 bulan
+  Bagian 2  (Frontend Web)         : 3 bulan
+  Bagian 3  (Backend Web)          : 3 bulan
+  Bagian 4  (Database)             : 2 bulan
+  Bagian 5  (DevOps & Deploy)      : 1.5 bulan
+  Bagian 6  (Flutter/Mobile)       : 4 bulan (paralel setelah frontend)
+  Bagian 7  (Tools & Testing)      : Sepanjang belajar
+  Bagian 8  (AI Tools)             : Mulai dari hari pertama
+  Bagian 9  (Persiapan Kerja)      : 1–2 bulan
+  -------------------------------------------------------
+  TOTAL WEB FULLSTACK              : 8–12 bulan
+  TOTAL WEB + MOBILE               : 12–18 bulan
+
+  Catatan: Dengan bantuan AI (Claude, Copilot, Cursor)
+  estimasi bisa dipotong 30–40% lebih cepat.
+
+  Kunci sukses:
+  1. Konsisten 2–3 jam per hari
+  2. Selalu buat project setelah belajar topik baru
+  3. Push ke GitHub setiap hari
+  4. Jangan loncat topik — selesaikan urutan di atas
+  5. Tanya AI kalau stuck, jangan berhenti lama
+
+
+================================================================
+   Semangat belajar! Dari PHP native ke Full Stack Developer
+   adalah perjalanan yang sangat realistis. Tetap konsisten!
+================================================================
